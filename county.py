@@ -18,7 +18,7 @@ with header:
     
     Welcome to the Covid-19 County tracker. This web application displays current information on the total number of Covid-19 cases reported in your selected county. With this application, you can get concise information on the number of total cases, deaths, and daily cases.
 
-    **Note:** If you don't see the "Make Selection" sidebar, please press the `>` icon on the top left side of your screen.
+    **Note:** If you don't see the "User Selection" sidebar, please press the `>` icon on the top left side of your screen.
     
     """)
 
