@@ -1,0 +1,5 @@
+matplotlib==3.3.2
+openpyxl==3.0.6
+requests==2.25.1
+streamlit==0.75.0
+pandas==1.2.1
