@@ -72,13 +72,19 @@ with output_graphs:
     
     st.markdown(""" This table includes the number of cases, deaths, new cases and moving average for your selection.""")
 
-    st.write(df_county.iloc[-table_days:,-4:])
+    #st.write(df_county.iloc[-table_days:,-4:])
+
+    a = df_county.iloc[-table_days:, -4:]
     
+    my_table = st.table(a)
+
+
     # Total Cases Graph
 
     st.header(f'Total Cases for {county},{state}.')
     
     total_cases_chart = df_county['cases']
+
     
     st.line_chart(total_cases_chart)
 
