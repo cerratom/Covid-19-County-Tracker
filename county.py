@@ -23,7 +23,7 @@ with header:
     """)
 
 # Fetch Dataset from the New York Times Github Repository
-url = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv'
+url = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-2022.csv'
 s = requests.get(url).content
 df = pd.read_csv(io.StringIO(s.decode('utf-8')), parse_dates=True, index_col='date')
 
