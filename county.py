@@ -1,3 +1,5 @@
+# A simple COIVD tracker by county
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import io 
